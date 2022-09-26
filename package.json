@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint --fix . && stylelint --fix **/*.css && prettier --write ."
+    "lint": "eslint --fix . && stylelint --fix **/*.css && prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^2.1.0",
@@ -28,6 +29,7 @@
     "prettier": "2.7.1",
     "stylelint": "^14.12.1",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^28.0.0"
+    "stylelint-config-standard": "^28.0.0",
+    "husky": "^8.0.0"
   }
 }
